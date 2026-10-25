@@ -60,3 +60,19 @@ The lab uses pfSense as the central firewall between the external network and in
         | Ubuntu VM |     | Internal  |
         |   Client  |     |  Server   |
         +-----------+     +-----------+
+
+        ---
+
+## Evidence and Screenshots
+
+The following screenshots document the configuration and testing performed in this lab.
+
+| Screenshot | Description |
+|---|---|
+| [pfSense Dashboard](screenshots/Dashboard-1.png) | pfSense system information and dashboard |
+| [Additional Dashboard View](screenshots/Dashboard-2.png) | Additional view of the pfSense environment |
+| [Firewall Aliases](screenshots/Firewall-Aliases-IP.png) | Configured host and network aliases |
+| [LAN Firewall Rules](screenshots/Firewall-Rules-LAN.png) | LAN firewall rule configuration |
+| [WAN Firewall Rules](screenshots/Firewall-Rules-WAN.png) | WAN firewall rule configuration |
+| [NAT Configuration](screenshots/NAT-Configurations.png) | NAT configuration evidence |
+| [Ubuntu Connectivity Tests](screenshots/Ubuntu-Connectivity.png) | Ubuntu IP configuration, routing, and connectivity tests |
