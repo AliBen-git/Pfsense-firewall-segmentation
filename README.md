@@ -63,6 +63,27 @@ The lab uses pfSense as the central firewall between the external network and in
 
         ---
 
+## Testing & Validation
+
+Network connectivity was tested from the Ubuntu virtual machine.
+
+The Ubuntu network configuration showed the following:
+
+- **IPv4 address:** `192.168.2.102/24`
+- **Default gateway:** `192.168.2.1`
+- **Network:** `192.168.2.0/24`
+
+Connectivity was verified using ICMP ping tests.
+
+```bash
+ip a show ens33
+ip route
+ping -c 4 8.8.8.8
+ping -c 4 google.com
+```
+
+Both ping tests completed successfully with 0% packet loss in the recorded test session. This verified IP connectivity and DNS name resolution from the Ubuntu virtual machine at the time of testing.
+
 ## Evidence and Screenshots
 
 The following screenshots document the configuration and testing performed in this lab.
